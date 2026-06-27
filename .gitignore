@@ -1,0 +1,30 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.log
+pubspec.lock
+
+# Android
+*.keystore
+*.jks
+local.properties
+android/.gradle/
+android/app/build/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+
+# Assets (add your own, don't commit large binaries)
+assets/models/*.gguf
+assets/audio/*.wav
+assets/audio/*.mp3
+
+# Environment
+.env
+.env.local
